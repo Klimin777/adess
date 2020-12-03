@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.0.0.4-->
+<svg stroke-width="0.501" stroke-linejoin="bevel" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="18pt" height="18pt" viewBox="0 0 18 18">
+ <defs>
+  <image id="Bitmap" preserveAspectRatio="none" width="0.001" height="0.001" xlink:href="data:image/png;base64,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">
+   <title>1</title>
+  </image>
+ </defs>
+ <g id="Document" fill="none" stroke="black" font-family="Times New Roman" font-size="16" transform="scale(1 -1)">
+  <g id="Spread" transform="translate(0 -18)">
+   <g id="Layer 1">
+    <g id="Group" stroke-linejoin="miter" stroke-linecap="round" stroke="none">
+     <path d="M 2.777,15.504 C 6.367,18.939 12.069,18.813 15.504,15.223 C 18.939,11.633 18.813,5.931 15.223,2.496 C 11.633,-0.939 5.931,-0.813 2.496,2.777 C -0.939,6.367 -0.813,12.069 2.777,15.504 Z" fill="#999999" stroke-width="0.152" marker-start="none" marker-end="none" stroke-miterlimit="79.8403193612775"/>
+     <clipPath id="clip-path">
+      <use xlink:href="#Shape"/>
+     </clipPath>
+     <g clip-path="url(#clip-path)">
+      <use xlink:href="#Bitmap" transform="translate(3.248 14.756) scale(11508 -11508)"/>
+     </g>
+     <path d="M 3.248,14.756 L 14.756,14.756 L 14.756,3.248 L 3.248,3.248 L 3.248,14.756 Z" stroke-width="0.005" marker-start="none" marker-end="none" stroke-miterlimit="79.8403193612775" fill="none" id="Shape"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
