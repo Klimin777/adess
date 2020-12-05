@@ -104,7 +104,9 @@ summary {
 html {
   box-sizing: border-box;
 }
-
+a{
+  text-decoration: none;
+}
 *,
 *:before,
 *:after {
@@ -225,6 +227,7 @@ select,
 input,
 textarea {
   font: 99% sans-serif;
+  line-height: 1.%;
 }
 
 table {
@@ -315,4 +318,22 @@ input[type="button"] {
 }
 .clearfix {
   zoom: 1;
+}
+@font-face {
+  font-family: "Telegrafico";
+  src: url("./fonts/TELEGRAFICO.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gothaprobla";
+  src: url("./fonts/Gothaprobla.OTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "GOTHAPROLIG";
+  src: url("./fonts/GOTHAPROLIG.OTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }

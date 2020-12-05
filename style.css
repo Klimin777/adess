@@ -9,36 +9,66 @@
 }
 .logo {
   margin-left: 280px;
-  margin-top: 26px;
+  margin-top: 25px;
 }
 .header__list {
   margin-left: 35px;
   margin-top: 15px;
+  line-height: 0.8;
+  
 }
 .header__list__name {
-  font-family: "TELEGRAFICO";
-  font-size: 16px;
-  font-weight: bold;
-  color: #808080;
+  font-family: 'Telegrafico';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11pt;
+    line-height:2%;
+    text-decoration: none;
+    font-feature-settings: 'kern','liga' 0,'clig' 0,'calt' 0;
+    text-transform: none;
+    color: #7F7F7F;
+    background-color: Transparent;
+    letter-spacing: 0em;
 }
+
 .nav {
   margin-left: 470px;
-  display: inline-flex;
+  margin-top: 35px;
 }
-.nav__button {
+.nav__items{
+  display: flex;
+  
+
+}
+.nav__button a{
+  padding-left: 70px;
+  font-family: "GOTHAPROLIG";
+  font-weight: bold;
+    font-style: normal;
+    font-size: 11pt;
+    text-decoration: none;
+    font-feature-settings: 'kern','liga' 0,'clig' 0,'calt' 0;
+    text-transform: none;
+    color: #191919;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+.nav__button a:hover,
+.nav__button a:focus{
   font-family: "Gothaprobla";
-  font-size: 16px;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Telegrafico";
-  src: url("./fonts/TELEGRAFICO.TTF") format("truetype");
-  font-style: normal;
   font-weight: normal;
+  font-size:11pt ;
+  color: #5b6e80;
+  
+
 }
-@font-face {
-  font-family: "Gothaprobla";
-  src: url("./fonts/Gothaprobla.OTF") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+.bar{
+  margin-top: 30px;
+  margin-left:260px;
+}
+.bar__list{
+  display: flex;
+}
+.bar__list__item{
+  padding-left: 10px;
 }
