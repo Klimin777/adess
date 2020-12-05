@@ -1,6 +1,7 @@
 .body {
   width: 1920px;
 }
+/* header*/
 .header {
   width: 1920px;
   height: 80px;
@@ -13,7 +14,7 @@
 }
 .header__list {
   margin-left: 35px;
-  margin-top: 15px;
+  margin-top: 13px;
   line-height: 0.8;
   
 }
@@ -72,3 +73,83 @@
 .bar__list__item{
   padding-left: 10px;
 }
+
+/* end header*/
+/*main*/
+.slider{
+  width:1920px;
+  height: 1085px;
+  background-color:#333333 ;
+}
+/*end main*/
+
+/* footer*/
+.footer{
+  width: 1920px;
+  height: 120px;
+  background-color: #6e8599;
+  display: inline-flex;
+
+}
+.logo__footer{
+  margin-left: 255px;
+  margin-top: 50px;
+}
+.footer__list{
+  margin-left: 35px;
+  margin-top: 35px;
+  line-height: 0.8;
+}
+.footer__list__name{
+  font-family: 'Telegrafico';
+    font-style: normal;
+    font-size: 12pt;
+    font-weight: 400;
+    line-height:2%;
+    text-decoration: none;
+    font-feature-settings: 'kern','liga' 0,'clig' 0,'calt' 0;
+    text-transform: none;
+    color: #ffffff;
+    background-color: Transparent;
+    letter-spacing: 0em;
+}
+.addres{
+  margin-left: 560px;
+  margin-top: 30px;
+  
+}
+.addres_list{
+  padding-bottom: 15px;
+}
+.adress_list_a{
+  padding-bottom: 8px ;
+}
+.adress_list_a_a,
+.adress_list_b_a{
+  font-family: "GOTHAPROLIG";
+  font-size: 11pt ;
+  font-weight: 500 ;
+  color: #e5e5e5;
+  font-style: normal;
+}
+.adress_adress{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.com-name{
+  font-family: "GOTHAPROLIG";
+  font-size: 11pt ;
+  font-weight: 500 ;
+  text-transform: uppercase;
+  color: #e5e5e5;
+  font-style: normal;
+}
+.com-address{
+  margin-top: 16px;
+  font-family: "GOTHAPROLIG";
+  font-size: 11pt ;
+  font-weight: 500 ;
+  color: #e5e5e5;
+  font-style: normal;
+}
+/*end footer*/
