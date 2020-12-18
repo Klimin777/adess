@@ -54,8 +54,8 @@
 }
 .nav__button a:hover,
 .nav__button a:focus {
-  font-family: "Gothaprobla";
-  font-weight: normal;
+  font-family: "GOTHAPROLIG";
+  font-weight: bold;
   font-size: 11pt;
   color: #5b6e80;
 }
@@ -91,6 +91,16 @@
   font-weight: 400;
   line-height: 0.8;
   color: #6e8599;
+}
+.partners {
+  width: 1920px;
+  height: 100px;
+  padding-left: 155px;
+  padding-right: 155px;
+}
+.partners-item {
+  display: flex;
+  flex-basis: wrap;
 }
 /*end main*/
 
