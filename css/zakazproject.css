@@ -1,0 +1,14 @@
+.zakaz {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid tomato;
+}
+.zakaz-item {
+  border: 1px solid tomato;
+}
+.zakaz-list {
+  border: 1 px solid tomato;
+}
+.zakaz-card {
+  border: 1 px solid tomato;
+}

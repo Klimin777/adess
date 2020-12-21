@@ -13,7 +13,7 @@
     <header class="header">
         <section class="logo">
             <a href="./index.html">
-                <img class="logo" src="./img/logo.png" alt="logo" width="125" height="20">
+                <img src="./img/logo.png" alt="logo" width="124" height="23">
             </a>
         </section>
         <section>
@@ -33,7 +33,7 @@
             </ul>
         </section>
         <section class="nav">
-            <ul>
+            <ul class="nav__items">
                 <li class="nav__button">
                     <a href="./index.html">Главная</a>
                 </li>
@@ -45,104 +45,145 @@
                 </li>
             </ul>
         </section>
-        <section class="">
-            <button>
-            <span>search</span>
-            </button>
-            <button>
-                <span>mail</span>
-            </button>
-            <button>
-                <span>lang</span>
-            </button>
-        </section>
+    <section class="bar">
+        <ul class="bar__list">
+            <li class="bar__list__item">
+                <a href="search.html">
+                    <img src="./img/svg/search.svg" alt="search" width="25" height="25">
+                </a>
+            </li>
+            <li class="bar__list__item">
+                <a href="mail.html">
+                    <img src="./img/svg/mail.svg" alt="mail" width="25" height="25">
+                </a>
+            </li>
+            <li class="bar__list__item">
+                <a href="lang.html">
+                    <img src="./img/svg/ru.svg" alt="lang" width="25" height="25">
+                </a>
+            </li>
+        </ul>
+    </section>
     </header>
     <main>
         <section class="slider_prod">
             <img src="./img/prod/slider.png" alt="slider">
         </section>
+
         <section class="prod-filter">
-            <section class="object">
-                <h2>Типология объекта</h2>
-                <img src="./img/11.png" alt="button">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>
-            <section class="year">
-                <h2>Год проектирования</h2>
-                <img src="./img/11.png" alt="button">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>
-            <section class="location">
-                <h2>Месторасположение</h2>
-                <img src="./img/11.png" alt="button">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>
+            <div class="filther-thumb">
+                <h2 class="filter-name">Типология объекта</h2>
+                <select name="Типология объекта" id="">
+                    <option value="1"></option>
+                    <option value="0">1</option>
+                    <option value="0">2</option>
+                    <option value="0">3</option>
+                    <option value="0">4</option>
+                    <option value="0">5</option>
+                </select>
+            </div>
+            <div class="filther-thumb">
+                <h2 class="filter-name">Год проектирования</h2>
+                <select name="Год проектирования" id="">
+                    <option value="1"></option>
+                    <option value="0">2001</option>
+                    <option value="0">2002</option>
+                    <option value="0">2008</option>
+                    <option value="0">2010</option>
+                    <option value="0">2020</option>
+                </select>
+            </div>
+            <div class="filther-thumb">
+                <h2 class="filter-name">Месторасположение</h2>
+                <select name="Месторасположение" id="">
+                    <option value="1"></option>
+                    <option value="0">Одесса</option>
+                    <option value="0">Одесская область</option>
+                    <option value="0">Николаев</option>
+                    <option value="0">Николаевская область</option>
+                    <option value="0">Херсон</option>
+                </select>
+            </div>
+             
         </section>
         <section class="main-cont">
             <ul class="">
+
                 <li class="">
-                    <a href="#">
+                    <article class="">
                         <div class="">
                             <img src="./img/prod/1.jpg" alt="" class="" width="770" height="540">
                         </div>
-                        
+                
                         <div class="">
                             <h3 class="">Дизайн интерьеров частного загородного дома</h3>
-                            <p class="">Одесса. 2020 год</p>
-                            <p class="">Типология объекта: <span class="">жилье</span></p>
-                        </div>  
-                    </a>
+                            <h4 class="">Одесса. 2020 год</p>
+                                <h5 class="">Типология объекта: <span class="">жилье</span></p>
+                        </div>
+                    </article>
                 </li>
                 <li class="">
-                    <a href="#">
+                    <article class="">
                         <div class="">
                             <img src="./img/prod/1.jpg" alt="" class="" width="770" height="540">
                         </div>
+                
                         <div class="">
                             <h3 class="">Дизайн интерьеров частного загородного дома</h3>
-                            <p class="">Одесса. 2020 год</p>
-                            <p class="">Типология объекта: <span class="">жилье</span></p>
-                        </div>  
-                    </a>
+                            <h4 class="">Одесса. 2020 год</p>
+                                <h5 class="">Типология объекта: <span class="">жилье</span></p>
+                        </div>
+                    </article>
+                </li>
+                <li class="">
+                    <article class="">
+                        <div class="">
+                            <img src="./img/prod/1.jpg" alt="" class="" width="770" height="540">
+                        </div>
+                    
+                        <div class="">
+                            <h3 class="">Дизайн интерьеров частного загородного дома</h3>
+                            <h4 class="">Одесса. 2020 год</p>
+                            <h5 class="">Типология объекта: <span class="">жилье</span></p>
+                        </div>
+                    </article>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <section>
+    <footer class="footer">
+        <section class="footer__logo">
             <a href="./index.html">
-                <img class="logo" src="./img/logo.png" alt="site_logo" width="125" height="20">
+                <img class="logo__footer" src="./img/logo_footer.svg" alt="site_logo" width="125" height="23">
             </a>
-            <ul>
+        </section>
+        <section>
+            <ul class="footer__list">
                 <li>
-                    <span>ARCHITECTURE</span>
+                    <span class="footer__list__name">ARCHITECTURE</span>
                 </li>
                 <li>
-                    <span>DESIGN</span>
+                    <span class="footer__list__name">DESIGN</span>
                 </li>
                 <li>
-                    <span>ENGINEERING</span>
+                    <span class="footer__list__name">ENGINEERING</span>
                 </li>
                 <li>
-                    <span>SYSTEM SOLUTIONS</span>
+                    <span class="footer__list__name">SYSTEM SOLUTIONS</span>
                 </li>
             </ul>
         </section>
-        <address>
-            <a href="tel:+380949476455">+380 94 94 764 55 <br> 787 34 55</a>
-            <a href="mailto:adess.llc@gmail.com">adess.llc@gmail.com</a>
+        <address class="addres">
+            <ul class="addres_list">
+                <li class="adress_list_a">
+                    <a class="adress_list_a_a" href="tel:+380949476455">+380 94 94 764 55 <br> 787 34 55</a>
+                </li>
+                <li class="adress_list_b">
+                    <a class="adress_list_b_a" href="mailto:adess.llc@gmail.com">adess.llc@gmail.com</a>
+                </li>
+            </ul>
+        </address>
+        <address class="adress_adress">
             <h4 class="com-name">ООО “АДИСС”</h4>
             <p class="com-address">Одесский бульвар, 5, с. Лиманка, <br>Овидиопольский район, Одесская область</p>
         </address>

@@ -2,3 +2,6 @@
   display: flex;
   flex-wrap: wrap;
 }
+.filter-name {
+  border: 1px solid tomato;
+}

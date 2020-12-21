@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+    
     <title>Заказ проекта</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/zakazproject.css">
 </head>
 <body>
     <header class="header">
         <section class="logo">
             <a href="./index.html">
-                <img class="logo" src="./img/logo.png" alt="logo" width="125" height="20">
+                <img src="./img/logo.png" alt="logo" width="124" height="23">
             </a>
         </section>
         <section>
@@ -19,7 +21,7 @@
                 <li>
                     <span class="header__list__name">ARCHITECTURE</span>
                 </li>
-                <li >
+                <li>
                     <span class="header__list__name">DESIGN</span>
                 </li>
                 <li>
@@ -31,7 +33,7 @@
             </ul>
         </section>
         <section class="nav">
-            <ul>
+            <ul class="nav__items">
                 <li class="nav__button">
                     <a href="./index.html">Главная</a>
                 </li>
@@ -43,111 +45,219 @@
                 </li>
             </ul>
         </section>
-        <section class="">
-            <button>
-               <span>search</span>
-            </button>
-            <button>
-                <span>mail</span>
-            </button>
-            <button>
-                <span>lang</span>
-            </button>
-        </section>
+    <section class="bar">
+        <ul class="bar__list">
+            <li class="bar__list__item">
+                <a href="search.html">
+                    <img src="./img/svg/search.svg" alt="search" width="25" height="25">
+                </a>
+            </li>
+            <li class="bar__list__item">
+                <a href="mail.html">
+                    <img src="./img/svg/mail.svg" alt="mail" width="25" height="25">
+                </a>
+            </li>
+            <li class="bar__list__item">
+                <a href="lang.html">
+                    <img src="./img/svg/ru.svg" alt="lang" width="25" height="25">
+                </a>
+            </li>
+        </ul>
+    </section>
     </header>
     <main>
         <section class="slider-zak"> 
             <h1></h1>
             <img class="slider-zar-im" src="./img/con2.jpg" alt="picture">
         </section>
-        <section class="zak-list">
-            <ul>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/1.jpg" alt="Разработка концепции" width="300" height="210">
-                    <h2 class="zak-list-name">Разработка концепции</h2>
+        <section class="zakaz">
+            <ul class="zakaz-item">
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/1.jpg" alt="Разработка концепции" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Разработка концепции</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/2.jpg" alt="Эскиз намерений застройки временных сооружений" width="300" height="210">
-                    <h2 class="zak-list-name">Эскиз намерений застройки временных сооружений</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/2.jpg" alt="Эскиз намерений застройки временных сооружений" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Эскиз намерений застройки временных сооружений</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/3.jpg" alt="Эскиз намерений застройки" width="300" height="210">
-                    <h2 class="zak-list-name">Эскиз намерений застройки</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/3.jpg" alt="Эскиз намерений застройки" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Эскиз намерений застройки</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/4.jpg" alt="Паспорт отделки фасадов" width="300" height="210">
-                    <h2 class="zak-list-name">Паспорт отделки фасадов</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/4.jpg" alt="Паспорт отделки фасадов" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Паспорт отделки фасадов</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/5.jpg" alt="Градостроительный расчет" width="300" height="210">
-                    <h2 class="zak-list-name">Градостроительный расчет</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/5.jpg" alt="Градостроительный расчет" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Градостроительный расчет</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/6.jpg" alt="Дизайн интерьеров" width="300" height="210">
-                    <h2 class="zak-list-name">Дизайн интерьеров</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/6.jpg" alt="Дизайн интерьеров" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Дизайн интерьеров</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/7.jpg" alt="3D визуализация" width="300" height="210">
-                    <h2 class="zak-list-name">3D визуализация</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/7.jpg" alt="3D визуализация" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">3D визуализация</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/8.jpg" alt="Авторский надзор" width="300" height="210">
-                    <h2 class="zak-list-name">Авторский надзор</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/8.jpg" alt="Авторский надзор" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Авторский надзор</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/9.jpg" alt="Разработка мебели и декоративных элементов" width="300" height="210">
-                    <h2 class="zak-list-name">Разработка мебели и <br> декоративных элементов</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/9.jpg" alt="Разработка мебели и декоративных элементов" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Разработка мебели и <br> декоративных элементов</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/10.jpg" alt="Графичекий дизайн" width="300" height="210">
-                    <h2 class="zak-list-name">Графичекий дизайн</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/10.jpg" alt="Графичекий дизайн" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Графичекий дизайн</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/11.jpg" alt="Проектная документация" width="300" height="210">
-                    <h2 class="zak-list-name">Проектная документация</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/11.jpg" alt="Проектная документация" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Проектная документация</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/12.jpg" alt="Генеральный план" width="300" height="210">
-                    <h2 class="zak-list-name">Генеральный план</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/12.jpg" alt="Генеральный план" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Генеральный план</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/13.jpg" alt="План зонирования территории" width="300" height="210">
-                    <h2 class="zak-list-name">План зонирования территории</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/13.jpg" alt="План зонирования территории" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">План зонирования территории</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/14.jpg" alt="Детельный план территории" width="300" height="210">
-                    <h2 class="zak-list-name">Детельный план территории</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/14.jpg" alt="Детельный план территории" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Детельный план территории</h2>
+                        </div>
+                    </article>
                 </li>
-                <li class="zak-list-cont">
-                    <img src="./img/zak-slider/15.jpg" alt="Благоустройство территории" width="300" height="210">
-                    <h2 class="zak-list-name">Благоустройство территории</h2>
+                <li class="zakaz-list">
+                    <article class="zakaz-card">
+                        <div class="zakaz-thumb">
+                            <img src="./img/zak-slider/15.jpg" alt="Благоустройство территории" width="300" height="210">
+                        </div>
+                        <div class="zakaz-content">
+                            <h2 class="zakaz-name">Благоустройство территории</h2>
+                        </div>
+                    </article>
                 </li>              
             </ul>
         </section>
     </main>
-    <footer>
-        <section>
+    <footer class="footer">
+        <section class="footer__logo">
             <a href="./index.html">
-                <img class="logo" src="./img/logo.png" alt="site_logo" width="125" height="20">
+                <img class="logo__footer" src="./img/logo_footer.svg" alt="site_logo" width="125" height="23">
             </a>
-            <ul>
+        </section>
+        <section>
+            <ul class="footer__list">
                 <li>
-                    <span>ARCHITECTURE</span>
+                    <span class="footer__list__name">ARCHITECTURE</span>
                 </li>
                 <li>
-                    <span>DESIGN</span>
+                    <span class="footer__list__name">DESIGN</span>
                 </li>
                 <li>
-                    <span>ENGINEERING</span>
+                    <span class="footer__list__name">ENGINEERING</span>
                 </li>
                 <li>
-                    <span>SYSTEM SOLUTIONS</span>
+                    <span class="footer__list__name">SYSTEM SOLUTIONS</span>
                 </li>
             </ul>
         </section>
-        <address>
-            <a href="tel:+380949476455">+380 94 94 764 55 <br> 787 34 55</a>
-            <a href="mailto:adess.llc@gmail.com">adess.llc@gmail.com</a>
+        <address class="addres">
+            <ul class="addres_list">
+                <li class="adress_list_a">
+                    <a class="adress_list_a_a" href="tel:+380949476455">+380 94 94 764 55 <br> 787 34 55</a>
+                </li>
+                <li class="adress_list_b">
+                    <a class="adress_list_b_a" href="mailto:adess.llc@gmail.com">adess.llc@gmail.com</a>
+                </li>
+            </ul>
+        </address>
+        <address class="adress_adress">
             <h4 class="com-name">ООО “АДИСС”</h4>
             <p class="com-address">Одесский бульвар, 5, с. Лиманка, <br>Овидиопольский район, Одесская область</p>
         </address>
