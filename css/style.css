@@ -127,10 +127,8 @@
   font-weight: 400;
   line-height: 2%;
   text-decoration: none;
-  font-feature-settings: "kern", "liga" 0, "clig" 0, "calt" 0;
   text-transform: none;
   color: #ffffff;
-  background-color: Transparent;
   letter-spacing: 0em;
 }
 .addres {

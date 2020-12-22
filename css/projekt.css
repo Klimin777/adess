@@ -1,7 +1,64 @@
+:root {
+  --card-set-gap: 40px;
+  --card-set-ap: 10px;
+}
 .prod-filter {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 150px;
 }
 .filter-name {
   border: 1px solid tomato;
+}
+.slider-zak {
+  width: 1920px;
+}
+.main-cont {
+  width: 1280px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.main-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--card-set-gap));
+  margin-left: calc(-1 * var(--card-set-gap));
+}
+.main-list {
+  background-color: #e5e5e5;
+}
+.main-item > .main-list {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-top: var(--card-set-gap);
+  margin-left: var(--card-set-gap);
+}
+.main-name-list {
+  font-family: "telegrafico";
+  font-size: 11pt;
+  font-weight: 600;
+  color: black;
+  margin-top: var(--card-set-ap);
+  margin-left: var(--card-set-ap);
+}
+.main-name-date {
+  font-family: "telegrafico";
+  font-size: 10pt;
+  font-weight: 400;
+  color: black;
+  margin-top: var(--card-set-ap);
+  margin-left: var(--card-set-ap);
+}
+.main-name-ops {
+  font-family: "telegrafico";
+  font-size: 10pt;
+  font-weight: 400;
+  color: black;
+  margin-top: var(--card-set-ap);
+  margin-left: var(--card-set-ap);
+}
+.main-ops {
+  font-family: "telegrafico";
+  font-size: 11pt;
+  font-weight: 500;
+  color: red;
 }

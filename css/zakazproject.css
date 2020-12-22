@@ -1,14 +1,27 @@
+:root {
+  --card-set-gap: 40px;
+}
 .zakaz {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid tomato;
+  width: 1700px;
+  margin-left: 116px;
+  margin-right: 116px;
 }
 .zakaz-item {
-  border: 1px solid tomato;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--card-set-gap));
+  margin-left: calc(-1 * var(--card-set-gap));
 }
-.zakaz-list {
-  border: 1 px solid tomato;
+.zakaz-item > .zakaz-list {
+  flex-basis: calc(100% / 5 - var(--card-set-gap));
+  margin-top: var(--card-set-gap);
+  margin-left: var(--card-set-gap);
 }
-.zakaz-card {
-  border: 1 px solid tomato;
+
+.zakaz-name {
+  font-family: "Gothaprobla" sans-serif;
+  font-style: normal;
+  font-size: 11pt;
+  color: #000000;
+  background-image: url(./img/zak-slider/zak-bg.png);
 }

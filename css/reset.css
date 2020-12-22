@@ -99,13 +99,18 @@ details,
 summary {
   display: block;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* Handle box-sizing while better addressing child elements:
    https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 html {
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
 }
 *,
@@ -228,7 +233,7 @@ select,
 input,
 textarea {
   font: 99% sans-serif;
-  line-height: 1.%;
+  line-height: 1%;
 }
 
 table {
