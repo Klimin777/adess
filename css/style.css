@@ -2,6 +2,10 @@
   width: 1920px;
   background-image: linear-gradient(top right #293239 #3e3c41 #404040);
 }
+.os{
+  width: 1920px;
+  background: linear-gradient(70deg,#292d38 ,#404040);
+}
 /* header*/
 .header {
   width: 1920px;

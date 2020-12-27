@@ -1,6 +1,11 @@
 :root {
   --card-set-gap: 40px;
 }
+.slider-zar-im{
+  padding: 0;
+  margin: 0%;
+  width: 1920px;
+}
 .zakaz {
   width: 1700px;
   margin-left: 116px;
