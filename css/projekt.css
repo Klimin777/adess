@@ -2,13 +2,28 @@
   --card-set-gap: 40px;
   --card-set-ap: 10px;
 }
+.slider_prod {
+  margin-top: -22px;
+  margin-left: -27px;
+  padding: 0;
+}
+.slider-img {
+  width: 1920px;
+}
 .prod-filter {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 150px;
+  margin-left: 550px;
+}
+.filter-thumb {
+  margin-right: 10px;
 }
 .filter-name {
   border: 1px solid tomato;
+  margin-right: 10px;
+}
+.sel {
+  margin-right: 20px;
 }
 .slider-zak {
   width: 1920px;
@@ -16,7 +31,8 @@
 .main-cont {
   width: 1280px;
   margin-left: 200px;
-  margin-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 250px;
 }
 .main-item {
   display: flex;

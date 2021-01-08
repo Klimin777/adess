@@ -1,10 +1,15 @@
 .body {
   width: 1920px;
   background-image: linear-gradient(top right #293239 #3e3c41 #404040);
+  height: 100%;
 }
-.os{
+.os {
   width: 1920px;
-  background: linear-gradient(70deg,#292d38 ,#404040);
+  background: linear-gradient(70deg, #292d38, #404040);
+}
+.wraper {
+  position: relative;
+  min-height: 100%;
 }
 /* header*/
 .header {
@@ -114,6 +119,7 @@
   height: 120px;
   background-color: #6e8599;
   display: inline-flex;
+  position: absolute;
 }
 .logo__footer {
   margin-left: 255px;
