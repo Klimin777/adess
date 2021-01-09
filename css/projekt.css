@@ -44,7 +44,7 @@
   background-color: #e5e5e5;
 }
 .main-item > .main-list {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  flex-basis: calc(100% / 2 - var(--card-set-gap));
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
 }
