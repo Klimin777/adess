@@ -123,7 +123,6 @@ a {
 
 /* Responsive images and other embedded objects
 */
-img,
 object,
 embed {
   max-width: 100%;
@@ -327,19 +326,26 @@ input[type="button"] {
 }
 @font-face {
   font-family: "Telegrafico";
-  src: url("./fonts/TELEGRAFICO.TTF") format("truetype");
+  src: url(".css/fonts/TELEGRAFICO.TTF") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Gothaprobla";
-  src: url("./fonts/Gothaprobla.OTF") format("truetype");
+  src: url(".css/fonts/Gothaprobla.OTF") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "GOTHAPROLIG";
-  src: url("./fonts/GOTHAPROLIG.OTF") format("truetype");
+  src: url(".css/fonts/GOTHAPROLIG.OTF") format("truetype");
   font-style: normal;
   font-weight: normal;
+}
+
+@font-face {
+  font-family: "Ghothamprobol";
+  src: url(".css/fonts/GOTHAPRObol.OTF") format("truetype");
+  font-style: bold;
+  font-weight: 600;
 }

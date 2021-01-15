@@ -1,3 +1,16 @@
+/*   
+Theme Name: Adess
+Theme URI: Adess.info
+Description: 
+Author: 
+Author URI:
+Template: напишите-здесь-наименование-родительской-темы--необязательное-поле
+Version: номер-версии--необязательное-поле
+.
+Развёрнутое описание темы/Лицензия-если-нужно.
+.
+*/
+
 .body {
   width: 1920px;
   background-image: linear-gradient(top right #293239 #3e3c41 #404040);
@@ -37,7 +50,6 @@
   font-feature-settings: "kern", "liga" 0, "clig" 0, "calt" 0;
   text-transform: none;
   color: #7f7f7f;
-  background-color: Transparent;
   letter-spacing: 0em;
 }
 
@@ -80,27 +92,160 @@
 }
 
 /* end header*/
+
 /*main*/
+
+/*slider*/
 .slider {
-  width: 1920px;
-  height: 1085px;
   background-color: #333333;
+  display: block;
 }
-.contante-header {
+.contant-header {
   margin-top: 100px;
+}
+.slider-header {
+  z-index: 1;
+  position: absolute;
+  margin-top: -27px;
+  margin-left: -14px;
+}
+.slider-header > img {
+  all: initial;
 }
 .nav_bottom {
   margin-left: 940px;
+  margin-top: -115px;
+  padding-bottom: 50px;
+}
+.container_slider {
+  margin: 0;
+  margin-top: -4px;
+  width: 1920px;
+  height: 1085px;
+  overflow: hidden;
+  position: relative;
+}
+.photo_slider {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0;
+  width: 100%;
+}
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+img:nth-child(1) {
+  animation-delay: 12s;
+}
+img:nth-child(2) {
+  animation-delay: 8s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 0;
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  .container_slider {
+    width: 80%;
+    height: 190px;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  .container_slider {
+    width: 80%;
+    height: 190px;
+  }
+}
+
+/*end slider*/
+
+/*content*/
+
+.content-header-pic {
+  width: 1920px;
+  margin-top: -11px;
+  position: inherit;
+  margin-left: -24px;
+}
+.content-header-pic > img {
+  all: initial;
 }
 .content-header-title {
   width: 724px;
   height: 62px;
+  margin-left: 915px;
   font-family: "GOTHAPROLIG";
-  font-size: 11pt;
+  font-size: 13pt;
+  font-style: italic;
+  text-align: justify;
+  text-indent: 50px;
   font-weight: 400;
-  line-height: 0.8;
+  line-height: 1;
   color: #6e8599;
 }
+
+/*end content header*/
+
+/*content main*/
+.content-main {
+  width: 815px;
+  height: 377px;
+  margin-left: 270px;
+  margin-top: 76px;
+}
+.content-title {
+  font-family: "GOTHAPROLIG";
+  font-size: 11pt;
+  color: #e5e5e5;
+  font-weight: 400;
+  font-style: normal;
+  text-indent: 30px;
+  padding-bottom: 24px;
+}
+.company-name {
+  font-family: "gothamprobol";
+  font-size: 11pt;
+  font-weight: bold;
+  color: #e5e5e5;
+}
+.content-list-name {
+  font-family: "GOTHAPROLIG";
+  font-size: 11pt;
+  color: #e5e5e5;
+  font-weight: 400;
+  text-indent: 40px;
+}
+.content-list {
+  all: initial;
+  color: #e5e5e5;
+  line-height: 1.5;
+  padding-bottom: 25px;
+}
+.content-work {
+  font-family: "GOTHAPROLIG";
+  font-size: 11pt;
+  color: #e5e5e5;
+  font-weight: 400;
+}
+.content-pro {
+  font-size: 12pt;
+  font-family: "Ghothamprobol";
+  font-weight: 600;
+  color: #e5e5e5;
+  line-height: 1;
+  text-indent: 30px;
+  text-align: justify;
+  margin-top: 25px;
+}
+/*end content main*/
+
 .partners {
   width: 1920px;
   height: 100px;
@@ -111,9 +256,11 @@
   display: flex;
   flex-basis: wrap;
 }
+
 /*end main*/
 
 /* footer*/
+
 .footer {
   width: 1920px;
   height: 120px;
@@ -133,13 +280,14 @@
 .footer__list__name {
   font-family: "Telegrafico";
   font-style: normal;
-  font-size: 12pt;
-  font-weight: 400;
+  font-size: 13pt;
+  font-weight: normal;
   line-height: 2%;
   text-decoration: none;
   text-transform: none;
   color: #ffffff;
   letter-spacing: 0em;
+  font-feature-settings: "kern", "liga" 0, "clig" 0, "calt" 0;
 }
 .addres {
   margin-left: 560px;

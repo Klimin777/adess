@@ -29,7 +29,7 @@
   width: 1920px;
 }
 .main-cont {
-  width: 1280px;
+  width: 1600px;
   margin-left: 200px;
   padding-top: 30px;
   padding-bottom: 250px;
@@ -41,6 +41,8 @@
   margin-left: calc(-1 * var(--card-set-gap));
 }
 .main-list {
+  width: 775px;
+  height: 550px;
   background-color: #e5e5e5;
 }
 .main-item > .main-list {
@@ -55,6 +57,10 @@
   color: black;
   margin-top: var(--card-set-ap);
   margin-left: var(--card-set-ap);
+}
+.main-name {
+  height: 156px;
+  background-image: url(./img/prod/bg.png);
 }
 .main-name-date {
   font-family: "telegrafico";
