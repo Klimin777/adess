@@ -10,6 +10,10 @@ Version: номер-версии--необязательное-поле
 Развёрнутое описание темы/Лицензия-если-нужно.
 .
 */
+:root {
+  --partners-set-gap: 0px;
+  --partners-set-ap: 12px;
+}
 
 .body {
   width: 1920px;
@@ -79,7 +83,14 @@ Version: номер-версии--необязательное-поле
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 11pt;
-  color: #5b6e80;
+  color: #3981c2;
+}
+.nav__button a:active {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 11pt;
+  font-style: normal;
+  color: #191919;
 }
 .bar {
   margin-top: 30px;
@@ -248,16 +259,88 @@ img:nth-child(4) {
 /* partners*/
 .partners {
   width: 1920px;
-  height: 100px;
   padding-left: 155px;
   padding-right: 155px;
+}
+.partners-header {
+  text-align: center;
+  margin-top: 61px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11pt;
+  color: #e5e5e5;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 .partners-item {
   display: flex;
   flex-basis: wrap;
+  margin-top: calc(-1 * var(--partners-set-gap));
+  margin-left: calc(-1 * var(--partners-set-gap));
+}
+.partners-item > .partners-list {
+  flex-basis: calc(100% / 7 - var(--partners-set-gap));
+  margin-top: var(--partners-set-gap);
+  margin-left: var(--cpartners-set-gap);
+}
+.partners-list {
+  width: 178px;
+  height: 181px;
+}
+.partners-thumb {
+  display: block;
+}
+.partners-thumb > img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+.partners-content {
+  text-align: center;
+  margin-top: var(--partners-set-ap);
+  margin-left: var(--partners-set-ap);
+}
+.partners-ops {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11pt;
+  color: #e5e5e5;
+  font-weight: normal;
+}
+.partners-nav {
+  margin-top: 75px;
+  margin-left: -155px;
+}
+/*end partners*/
+
+/* Contact*/
+.cotakt {
 }
 
-/*end partners*/
+.contakt-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  color: #e5e5e5;
+  text-align: center;
+}
+.contack-name {
+  margin-top: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  color: #e5e5e5;
+  text-align: center;
+}
+.contack-main {
+  width: 925px;
+  height: 340px;
+  margin-top: 80px;
+  margin-left: 500px;
+  display: flex;
+}
+.contack-nav {
+}
+/*end contact*/
+
 /*end main*/
 
 /* footer*/
