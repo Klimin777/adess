@@ -1,63 +1,36 @@
-.card {
-  width: 302px;
-  height: 214px;
-  position: relative;
-}
-.card-img {
-  width: 302px;
-  height: 214px;
-  position: absolute;
-}
-.card-title {
-  background: url(./img/zak-slider/zak-bg.png);
-  position: absolute;
-  width: 100px;
-  height: 214px;
-  margin: 0;
-  padding: 0;
-}
-.container_slider {
-  margin: 50px auto;
-  width: 500px;
-  height: 300px;
+.block_1 {
+  width: 303px;
+  height: 215px;
   overflow: hidden;
   position: relative;
+  margin-left: 150px;
+  background-size: cover;
+  margin-bottom: 200px;
 }
-.photo_slider {
+.block_2 {
   position: absolute;
-  animation: round 16s infinite;
-  opacity: 0;
-  width: 100%;
+  visibility: hidden;
+  left: 1px;
+  background-image: url(../img/zak-slider/zak-bg.png);
+  font-size: 20px;
+  color: white;
+  width: 303px;
+  height: 75px;
+  top: 300px;
 }
-@keyframes round {
-  25% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 0;
-  }
+
+.block_2 p {
+  padding-top: 35px;
+  padding-left: 25px;
 }
-img:nth-child(1) {
-  animation-delay: 12s;
+.block_1:hover .block_2 {
+  visibility: visible;
+  transition: 1s;
+  -webkit-transition: 1s;
+  transform: translatey(-160px);
+  -webkit-transform: translatey(-160px);
 }
-img:nth-child(2) {
-  animation-delay: 8s;
-}
-img:nth-child(3) {
-  animation-delay: 4s;
-}
-img:nth-child(4) {
-  animation-delay: 0;
-}
-@media (min-width: 0px) and (max-width: 320px) {
-  .container_slider {
-    width: 80%;
-    height: 190px;
-  }
-}
-@media (min-width: 321px) and (max-width: 480px) {
-  .container_slider {
-    width: 80%;
-    height: 190px;
-  }
+.block_1:hover {
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
 }

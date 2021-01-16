@@ -15,6 +15,7 @@ Version: номер-версии--необязательное-поле
   width: 1920px;
   background-image: linear-gradient(top right #293239 #3e3c41 #404040);
   height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 .os {
   width: 1920px;
@@ -62,7 +63,7 @@ Version: номер-версии--необязательное-поле
 }
 .nav__button a {
   padding-left: 70px;
-  font-family: "GOTHAPROLIG";
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 11pt;
@@ -75,7 +76,7 @@ Version: номер-версии--необязательное-поле
 }
 .nav__button a:hover,
 .nav__button a:focus {
-  font-family: "GOTHAPROLIG";
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 11pt;
   color: #5b6e80;
@@ -114,7 +115,6 @@ Version: номер-версии--необязательное-поле
 }
 .nav_bottom {
   margin-left: 940px;
-  margin-top: -115px;
   padding-bottom: 50px;
 }
 .container_slider {
@@ -181,7 +181,7 @@ img:nth-child(4) {
   width: 724px;
   height: 62px;
   margin-left: 915px;
-  font-family: "GOTHAPROLIG";
+  font-family: "Montserrat", sans-serif;
   font-size: 13pt;
   font-style: italic;
   text-align: justify;
@@ -201,7 +201,7 @@ img:nth-child(4) {
   margin-top: 76px;
 }
 .content-title {
-  font-family: "GOTHAPROLIG";
+  font-family: "Montserrat", sans-serif;
   font-size: 11pt;
   color: #e5e5e5;
   font-weight: 400;
@@ -210,13 +210,13 @@ img:nth-child(4) {
   padding-bottom: 24px;
 }
 .company-name {
-  font-family: "gothamprobol";
+  font-family: "Montserrat", sans-serif;
   font-size: 11pt;
   font-weight: bold;
   color: #e5e5e5;
 }
 .content-list-name {
-  font-family: "GOTHAPROLIG";
+  font-family: "Montserrat", sans-serif;
   font-size: 11pt;
   color: #e5e5e5;
   font-weight: 400;
@@ -229,14 +229,14 @@ img:nth-child(4) {
   padding-bottom: 25px;
 }
 .content-work {
-  font-family: "GOTHAPROLIG";
+  font-family: "Montserrat", sans-serif;
   font-size: 11pt;
   color: #e5e5e5;
   font-weight: 400;
 }
 .content-pro {
   font-size: 12pt;
-  font-family: "Ghothamprobol";
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #e5e5e5;
   line-height: 1;
@@ -245,7 +245,7 @@ img:nth-child(4) {
   margin-top: 25px;
 }
 /*end content main*/
-
+/* partners*/
 .partners {
   width: 1920px;
   height: 100px;
@@ -257,6 +257,7 @@ img:nth-child(4) {
   flex-basis: wrap;
 }
 
+/*end partners*/
 /*end main*/
 
 /* footer*/
@@ -281,13 +282,9 @@ img:nth-child(4) {
   font-family: "Telegrafico";
   font-style: normal;
   font-size: 13pt;
-  font-weight: normal;
-  line-height: 2%;
   text-decoration: none;
   text-transform: none;
   color: #ffffff;
-  letter-spacing: 0em;
-  font-feature-settings: "kern", "liga" 0, "clig" 0, "calt" 0;
 }
 .addres {
   margin-left: 560px;
@@ -301,7 +298,7 @@ img:nth-child(4) {
 }
 .adress_list_a_a,
 .adress_list_b_a {
-  font-family: "GOTHAPROLIG";
+  font-family: "Montserrat", sans-serif;
   font-size: 11pt;
   font-weight: 500;
   color: #e5e5e5;
@@ -312,7 +309,7 @@ img:nth-child(4) {
   margin-left: 100px;
 }
 .com-name {
-  font-family: "GOTHAPROLIG";
+  font-family: "Montserrat", sans-serif;
   font-size: 11pt;
   font-weight: 500;
   text-transform: uppercase;
@@ -321,7 +318,7 @@ img:nth-child(4) {
 }
 .com-address {
   margin-top: 16px;
-  font-family: "GOTHAPROLIG";
+  font-family: "Montserrat", sans-serif;
   font-size: 11pt;
   font-weight: 500;
   color: #e5e5e5;

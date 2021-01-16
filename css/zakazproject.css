@@ -1,15 +1,19 @@
 :root {
   --card-set-gap: 40px;
 }
-.slider-zar-im{
-  padding: 0;
-  margin: 0%;
-  width: 1920px;
+.slider-zak {
+  all: initial;
+}
+.slider-zak > img {
+  all: initial;
+  margin-left: -30px;
+  margin-top: -23px;
 }
 .zakaz {
   width: 1700px;
   margin-left: 116px;
   margin-right: 116px;
+  padding-bottom: 250px;
 }
 .zakaz-item {
   display: flex;
@@ -24,9 +28,42 @@
 }
 
 .zakaz-name {
-  font-family: "Gothaprobla" sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-size: 11pt;
-  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
   background-image: url(./img/zak-slider/zak-bg.png);
+}
+
+.block_1 {
+  width: 303px;
+  height: 215px;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+}
+.block_2 {
+  position: absolute;
+  visibility: hidden;
+  background-image: url(../img/zak-slider/zak-bg.png);
+  width: 303px;
+  height: 80px;
+  top: 300px;
+  text-align: center;
+}
+
+.block_2 p {
+  padding-top: 35px;
+}
+.block_1:hover .block_2 {
+  visibility: visible;
+  transition: 1s;
+  -webkit-transition: 1s;
+  transform: translatey(-160px);
+  -webkit-transform: translatey(-160px);
+}
+.block_1:hover {
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
 }

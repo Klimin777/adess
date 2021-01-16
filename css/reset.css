@@ -330,22 +330,3 @@ input[type="button"] {
   font-style: normal;
   font-weight: normal;
 }
-@font-face {
-  font-family: "Gothaprobla";
-  src: url(".css/fonts/Gothaprobla.OTF") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: "GOTHAPROLIG";
-  src: url(".css/fonts/GOTHAPROLIG.OTF") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Ghothamprobol";
-  src: url(".css/fonts/GOTHAPRObol.OTF") format("truetype");
-  font-style: bold;
-  font-weight: 600;
-}
