@@ -68,7 +68,7 @@ Version: номер-версии--необязательное-поле
 .nav__button a {
   padding-left: 70px;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   font-size: 11pt;
   text-decoration: none;
@@ -87,7 +87,7 @@ Version: номер-версии--необязательное-поле
 }
 .nav__button a:active {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 11pt;
   font-style: normal;
   color: #191919;
@@ -193,7 +193,7 @@ img:nth-child(4) {
   height: 62px;
   margin-left: 915px;
   font-family: "Montserrat", sans-serif;
-  font-size: 13pt;
+  font-size: 11pt;
   font-style: italic;
   text-align: justify;
   text-indent: 50px;
@@ -254,6 +254,7 @@ img:nth-child(4) {
   text-indent: 30px;
   text-align: justify;
   margin-top: 25px;
+  margin-left: -10px;
 }
 /*end content main*/
 /* partners*/
@@ -364,7 +365,8 @@ img:nth-child(4) {
 .footer__list__name {
   font-family: "Telegrafico";
   font-style: normal;
-  font-size: 13pt;
+  font-size: 11pt;
+  line-height: 1;
   text-decoration: none;
   text-transform: none;
   color: #ffffff;
