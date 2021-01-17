@@ -1,6 +1,6 @@
 .block_1 {
-  width: 303px;
-  height: 215px;
+  width: 775px;
+  height: 550px;
   overflow: hidden;
   position: relative;
   margin-left: 150px;
@@ -12,15 +12,17 @@
   visibility: hidden;
   left: 1px;
   background-image: url(../img/zak-slider/zak-bg.png);
+  background: no-repeat;
+  text-align: left;
   font-size: 20px;
   color: white;
-  width: 303px;
-  height: 75px;
-  top: 300px;
+  width: 775px;
+  height: 156px;
+  top: 500px;
 }
 
 .block_2 p {
-  padding-top: 35px;
+  padding-top: 55px;
   padding-left: 25px;
 }
 .block_1:hover .block_2 {
@@ -33,4 +35,9 @@
 .block_1:hover {
   transition: 0.6s;
   -webkit-transition: 0.6s;
+}
+.maim-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12pt;
+  font-weight: normal;
 }
