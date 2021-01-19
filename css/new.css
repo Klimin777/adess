@@ -1,43 +1,27 @@
-.block_1 {
-  width: 775px;
-  height: 550px;
-  overflow: hidden;
-  position: relative;
+.block-1 {
+  width: 303px;
+  height: 215px;
   margin-left: 150px;
-  background-size: cover;
   margin-bottom: 200px;
-}
-.block_2 {
-  position: absolute;
-  visibility: hidden;
-  left: 1px;
-  background-image: url(../img/zak-slider/zak-bg.png);
-  background: no-repeat;
-  text-align: left;
-  font-size: 20px;
-  color: white;
-  width: 775px;
-  height: 156px;
-  top: 500px;
-}
-
-.block_2 p {
-  padding-top: 55px;
-  padding-left: 25px;
-}
-.block_1:hover .block_2 {
-  visibility: visible;
   transition: 1s;
-  -webkit-transition: 1s;
-  transform: translatey(-160px);
-  -webkit-transform: translatey(-160px);
+  display: block;
 }
-.block_1:hover {
-  transition: 0.6s;
-  -webkit-transition: 0.6s;
+.block-1:hover {
+  transform: scale(1.2);
+  background-color: #ffffff0f;
 }
-.maim-name {
-  font-family: "Montserrat", sans-serif;
-  font-size: 12pt;
-  font-weight: normal;
+.block-2 {
+  width: 303px;
+  height: 215px;
+  margin-left: 150px;
+  margin-bottom: 200px;
+  display: inline-block;
+  overflow: hidden;
+}
+.block-2 img {
+  transition: 1s;
+  display: block;
+}
+.block-2 img:hover {
+  transform: scale(1.2);
 }
