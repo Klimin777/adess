@@ -10,6 +10,7 @@
   transform: scale(1.2);
   background-color: #ffffff0f;
 }
+
 .block-2 {
   width: 303px;
   height: 215px;
@@ -18,10 +19,18 @@
   display: inline-block;
   overflow: hidden;
 }
+.block-text {
+  z-index: 1;
+  color: brown;
+  font-size: 16px;
+  font-style: bold;
+}
 .block-2 img {
   transition: 1s;
   display: block;
+  z-index: -1;
 }
 .block-2 img:hover {
   transform: scale(1.2);
+  opacity: 80%;
 }
