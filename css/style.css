@@ -338,7 +338,29 @@ img:nth-child(4) {
   margin-left: 500px;
   display: flex;
 }
+
+.contack-img {
+  margin-top: 10px;
+}
+.contact-img img {
+  margin-left: 35px;
+}
+.contact-item {
+  margin-top: 10px;
+}
+.contact-item a {
+  font-size: 14pt;
+  color: white;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
 .contack-nav {
+}
+.map {
+  margin-left: 100px;
+}
+.partners-other {
+  visibility: hidden;
 }
 /*end contact*/
 
