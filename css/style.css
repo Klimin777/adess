@@ -339,17 +339,24 @@ img:nth-child(4) {
   display: flex;
 }
 
+.contakt-thumb {
+  display: flex;
+  margin-top: 25px;
+}
 .contack-img {
   margin-top: 10px;
 }
 .contact-img img {
+  width: 57px;
+  height: 57px;
   margin-left: 35px;
 }
 .contact-item {
   margin-top: 10px;
+  margin-left: 25px;
 }
 .contact-item a {
-  font-size: 14pt;
+  font-size: 11pt;
   color: white;
   font-family: "Montserrat";
   text-decoration: none;
