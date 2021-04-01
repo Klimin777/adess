@@ -77,6 +77,7 @@ Version: номер-версии--необязательное-поле
   color: #191919;
   background-color: Transparent;
   letter-spacing: 0em;
+  transform: none;
 }
 .nav__button a:hover,
 .nav__button a:focus {
@@ -343,16 +344,15 @@ img:nth-child(4) {
   display: flex;
   margin-top: 25px;
 }
-.contack-img {
-  margin-top: 10px;
+.contakt-img {
+  width: 54px;
+  height: 54px;
 }
 .contact-img img {
-  width: 57px;
-  height: 57px;
   margin-left: 35px;
 }
 .contact-item {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 25px;
 }
 .contact-item a {

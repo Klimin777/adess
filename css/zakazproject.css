@@ -36,14 +36,14 @@
   background-image: url(./img/zak-slider/zak-bg.png);
 }
 
-.block_1 {
+.zakaz-block {
   width: 303px;
   height: 215px;
   overflow: hidden;
   position: relative;
   background-size: cover;
 }
-.block_2 {
+.zakaz-block2 {
   position: absolute;
   visibility: hidden;
   background-image: url(../img/zak-slider/zak-bg.png);
@@ -53,17 +53,17 @@
   text-align: center;
 }
 
-.block_2 p {
+.zakaz-block2 p {
   padding-top: 35px;
 }
-.block_1:hover .block_2 {
+.zakaz-block:hover .zakaz-block2 {
   visibility: visible;
   transition: 1s;
   -webkit-transition: 1s;
   transform: translatey(-160px);
   -webkit-transform: translatey(-160px);
 }
-.block_1:hover {
+.zakaz-block:hover {
   transition: 0.6s;
   -webkit-transition: 0.6s;
 }

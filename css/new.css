@@ -1,36 +1,30 @@
-.block-1 {
-  width: 303px;
-  height: 215px;
-  margin-left: 150px;
-  margin-bottom: 200px;
-  transition: 1s;
-  display: block;
+.block-thumb {
+  height: 303px;
+  width: 215px;
+  position: relative;
 }
-.block-1:hover {
-  transform: scale(1.2);
-  background-color: #ffffff0f;
-}
-
-.block-2 {
-  width: 303px;
-  height: 215px;
-  margin-left: 150px;
-  margin-bottom: 200px;
-  display: inline-block;
-  overflow: hidden;
+.text-shadow{
+  
 }
 .block-text {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15pt;
+  z-index: 10;
+  position: absolute;
+}
+.block-img {
   z-index: 1;
-  color: brown;
-  font-size: 16px;
-  font-style: bold;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
 }
-.block-2 img {
-  transition: 1s;
+.block-img img {
+  transition: 1.5s; /* Время эффекта */
   display: block;
-  z-index: -1;
 }
-.block-2 img:hover {
+.block-img img:hover {
   transform: scale(1.2);
-  opacity: 80%;
 }
