@@ -1,0 +1,26 @@
+.pages {
+  max-width: 100%;
+  min-width: 40%;
+  min-height: 800px;
+}
+.pages-header {
+  width: 100%;
+  height: 100%;
+}
+.pages-title {
+  font-size: 14px;
+  color: cornsilk;
+}
+.pages-price {
+  width: 584px;
+  height: auto;
+  display: inline-block;
+}
+.pages-title-row {
+  display: block;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+.pages-row {
+  font-size: 13px;
+  color: white;
+}

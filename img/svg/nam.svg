@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.0.0.4-->
+<svg stroke-width="0.501" stroke-linejoin="bevel" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="30.331pt" height="30.331pt" viewBox="0 0 30.331 30.331">
+ <defs>
+	</defs>
+ <g id="Document" fill="none" stroke="black" font-family="Times New Roman" font-size="16" transform="scale(1 -1)">
+  <g id="Spread" transform="translate(0 -30.331)">
+   <g id="Page background"/>
+   <g id="text">
+    <path d="M 5.676,17.988 L 18.964,17.988" fill="none" stroke="#6e8599" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="79.8403193612775"/>
+    <path d="M 5.747,14.166 L 19.035,14.166" fill="none" stroke="#6e8599" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="79.8403193612775"/>
+    <path d="M 5.678,10.344 L 18.966,10.344" fill="none" stroke="#6e8599" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="79.8403193612775"/>
+    <path d="M 5.678,6.522 L 13.266,6.522" fill="none" stroke="#6e8599" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="79.8403193612775"/>
+    <path d="M 1.004,20.373 L 1.004,4.278 C 1.004,2.471 2.472,1.003 4.279,1.003 L 20.36,1.003 C 22.167,1.003 23.635,2.471 23.635,4.278 L 23.635,20.373 C 23.635,22.18 22.167,23.648 20.36,23.648 L 4.279,23.648 C 2.472,23.648 1.004,22.18 1.004,20.373 Z" stroke="#6e8599" stroke-width="2" stroke-linejoin="miter" marker-start="none" marker-end="none" stroke-miterlimit="79.8403193612775"/>
+    <path d="M 26.628,5.665 L 26.628,7.743 C 27.621,8.038 28.347,8.959 28.347,10.048 L 28.347,25.945 C 28.347,27.27 27.271,28.347 25.945,28.347 L 10.061,28.347 C 8.926,28.347 7.974,27.558 7.723,26.5 L 5.678,26.5 L 5.678,26.761 C 5.678,28.729 7.277,30.328 9.245,30.328 L 26.759,30.328 C 28.727,30.328 30.326,28.729 30.326,26.761 L 30.326,9.232 C 30.326,7.264 28.727,5.665 26.759,5.665 L 26.628,5.665 Z" stroke="none" fill="#6e8599" stroke-width="2.178" stroke-linejoin="miter" marker-start="none" marker-end="none" stroke-miterlimit="79.8403193612775"/>
+   </g>
+  </g>
+ </g>
+</svg>
