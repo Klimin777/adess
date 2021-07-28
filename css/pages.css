@@ -8,8 +8,11 @@
   height: 100%;
 }
 .pages-title {
-  font-size: 14px;
+  font-size: 60px;
+  font-family:'Montserrat';
   color: cornsilk;
+  text-transform: uppercase;
+  text-shadow: 30px -10px 10px #fff;
 }
 .pages-price {
   width: 584px;
@@ -17,10 +20,37 @@
   display: inline-block;
 }
 .pages-title-row {
-  display: block;
+  display: relative;
   background-color: rgba(100, 100, 100, 0.5);
+  margin-bottom: 10px;
+  width: inherit;
 }
 .pages-row {
-  font-size: 13px;
+  position: absolute;
+  font-size: 14px;
+  font-family: "Montserrat";
   color: white;
+}
+.pages-title-row img{
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 80%;
+
+}
+.pages-list-header{
+  top: 50%;
+  margin-left: 20px;
+  display: inline;
+}
+.pages-list{
+  width: 500px;
+  margin-left: 20px;
+}
+.pages-cons{
+  margin-left: 15px;
+  padding-bottom: 15px;
+  list-style-type: disc;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 10pt;
 }
