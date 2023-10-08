@@ -3,363 +3,367 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-   
     <title>ADESS</title>
-    <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        >
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
 </head>
 <body>
-    <section class="os">
-        <header class="header">
-            <section class="logo">
-                <a href="./index.html">
-                    <img src="./img/logo.png" alt="logo" width="124" height="23">
-                </a>
-            </section>
-            <section>
-                <ul class="header__list">
-                    <li>
-                        <span class="header__list__name">ARCHITECTURE</span>
-                    </li>
-                    <li>
-                        <span class="header__list__name">DESIGN</span>
-                    </li>
-                    <li>
-                        <span class="header__list__name">ENGINEERING</span>
-                    </li>
-                    <li>
-                        <span class="header__list__name">SYSTEM SOLUTIONS</span>
-                    </li>
-                </ul>
-            </section>
-            <section class="nav">
-                <ul class="nav__items">
-                    <li class="nav__button">
-                        <a href="./zakaz-proekta.html">Заказ проекта</a>
-                    </li>
-                    <li class="nav__button">
-                        <a href="./projekt.html">Проекты</a>
-                    </li>
-                </ul>
-            </section>
-            <section class="bar">
-                <ul class="bar__list">
-                    <li class="bar__list__item">
-                        <a  href="search.html">
-                            <img src="./img/svg/search.svg" alt="search" width="25" height="25">
-                        </a>
-                    </li>
-                    <li class="bar__list__item">
-                        <a  href="mail.html">
-                            <img src="./img/svg/mail.svg" alt="mail" width="25" height="25">
-                        </a>
-                    </li>
-                    <li class="bar__list__item">
-                        <a  href="lang.html">
-                            <img src="./img/svg/ru.svg" alt="lang" width="25" height="25">
-                        </a>
-                    </li>
-                </ul>
-            </section>
-        </header>
-        <main>
-        
-            <section class="slider">
-                    <div class="slider-header">
-                      <img src="./img/slider_fon.png" alt="">
-                     </div>
-                     <div class="container_slider">
-                        <img class="photo_slider" src="./img/slider1.jpg" alt="">
-                        <img class="photo_slider" src="./img/slider2.jpg" alt="">
-                        <img class="photo_slider" src="./img/slider3.jpg" alt="">
-                        <img class="photo_slider" src="./img/slider1.jpg" alt="">
-                    </div>
-                </section>
-
-            <section class="content-header">
-                <img src="./img/line1.jpg" alt="полоса">
-                <div class="content-header-pic">
-                    <img src="./img/con1.png" alt="заголовок">
-                </div>
-
-               
-                <p class="content-header-title">Венский архитектор и художник Фриденсрайх Хундертвассер выдвинул концепцию о третьей коже человека. Согласно его теории,
-                помимо собственно кожи, человек обладает также второй кожей — одеждой, и третьей — домом. Поэтому одна из основных задач
-                архитектора — создание пространства, комфортного и благоприятного для человека.</p>
-                
-                
-            </section>
-<!--contant main-->
-            <section class="content-main">
-                <h2 class="content-title"><span class="company-name">«АДИСС»</span> — компания, проектирующая здания, сооружения, комплексы и пространства.</h2>
-                <h3 class="content-list-name">Выполняем такие работы:</h3>
-                <ul class="content-list">
-
-                    <li>
-                        <p class="content-work">градостроительство – проектирование генеральных планов городов и населенных пунктов, зонирование территорий, детальные
-                    планы территорий, схемы планировки районов и т.д</p>
-                    </li>
-
-                    <li>
-                        <p class="content-work">проектирование зданий и сооружений различного назначения – жилые, общественные, административные, промышленные,
-                        сельскохозяйственные, сооружения транспорта и др.</p>
-                    </li>
-
-                    <li>
-                        <p class="content-work">благоустройство территории, ландшафтная архитектура, разработка малых архитектурных форм и др.</p>
-                    </li>
-
-                    <li>
-                        <p class="content-work">дизайн интерьерных пространств</p>
-                    </li>
-
-                    <li>
-                        <p class="content-work">предметный дизайн - разработка мебели, уникальных декоративных элементов интерьера</p>
-                    </li>
-
-                    <li>
-                        <p class="content-work">графический дизайн, разработка логотипов, визиток и фирменного стиля</p>
-                 </li>
-
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="index.html" class="pull-left visible-md visible-lg">
+                <div id="logo-img" alt="Logo image"></div>
+              </a>
+    
+              <div class="navbar-brand">
+                <a href="index.html">
+                <p>
+                  <img src="img/svg/logo.svg" alt="Adess">
+                </p>
+            </a>
+            
+              </div>
+              <div class="nav_list_global">
+    <ul class="nav_list">
+                <li><span>ARCHITECTURE</span></li>
+                <li><span>DESIGN</span></li>
+                <li><span>ENGINEERING</span></li>
+                <li><span>SYSTEM SOLUTIONS</span></li>
             </ul>
-
-                <p class="content-pro">В зависимости от объекта, его назначения, сложности и площади варьируется состав проектной документации, количество
-                стадий и разделов. Подробнее Вы можете узнать об этом в разделе Заказ проекта.</p>
-   
-            </section>
-
-            <div>
-                <img class="nav_bottom" src="./img/11.png" alt="button" width="44" height="15"> 
             </div>
+              <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+               <ul id="nav-list" class="nav navbar-nav navbar-right">
+                <li id="navHomeButton" class="visible-xs active">
+                  <a href="index.html">
+                    <span class="glyphicon glyphicon-home"></span>Главная</a>
+                </li>
+                <li id="navMenuButton">
+                  <a href="#" onclick="$dc.loadMenuCategories();">
+                    <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Заказ проекта</a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">Проекты</a>
+                </li>
+              </ul><!-- #nav-list -->
+            </div><!-- .collapse .navbar-collapse -->
+          </div><!-- .container -->
+        </nav><!-- #header-nav -->
+      </header>
+      
+      
+      
+<!--main content-->
+<main>
+        
+  <section class="slider">
+          <div class="slider-header">
+            <img src="./img/slider_fon.png" alt="">
+           </div>
+           <div class="container_slider">
+              <img class="photo_slider" src="./img/slider1.jpg" alt="">
+              <img class="photo_slider" src="./img/slider2.jpg" alt="">
+              <img class="photo_slider" src="./img/slider3.jpg" alt="">
+              <img class="photo_slider" src="./img/slider1.jpg" alt="">
+          </div>
+      </section>
 
-            <!--end contant main-->
+  <section class="content-header">
+      
+      <div class="content-header-pic">
+         <!--<img src="./img/line1.jpg" alt="полоса"> -->
+         <img src="./img/con1.png" alt="заголовок">
+      </div>
+
+     
+      <p class="content-header-title">Венский архитектор и художник Фриденсрайх Хундертвассер выдвинул концепцию о третьей коже человека. Согласно его теории,
+      помимо собственно кожи, человек обладает также второй кожей — одеждой, и третьей — домом. Поэтому одна из основных задач
+      архитектора — создание пространства, комфортного и благоприятного для человека.</p>
+      
+      
+  </section>
+<!--contant main-->
+  <section class="content-main">
+      <h2 class="content-title"><span class="company-name">«АДИСС»</span> — компания, проектирующая здания, сооружения, комплексы и пространства.</h2>
+      <h3 class="content-list-name">Выполняем такие работы:</h3>
+      <ul class="content-list">
+
+          <li>
+              <p class="content-work">градостроительство – проектирование генеральных планов городов и населенных пунктов, зонирование территорий, детальные
+          планы территорий, схемы планировки районов и т.д</p>
+          </li>
+
+          <li>
+              <p class="content-work">проектирование зданий и сооружений различного назначения – жилые, общественные, административные, промышленные,
+              сельскохозяйственные, сооружения транспорта и др.</p>
+          </li>
+
+          <li>
+              <p class="content-work">благоустройство территории, ландшафтная архитектура, разработка малых архитектурных форм и др.</p>
+          </li>
+
+          <li>
+              <p class="content-work">дизайн интерьерных пространств</p>
+          </li>
+
+          <li>
+              <p class="content-work">предметный дизайн - разработка мебели, уникальных декоративных элементов интерьера</p>
+          </li>
+
+          <li>
+              <p class="content-work">графический дизайн, разработка логотипов, визиток и фирменного стиля</p>
+       </li>
+
+  </ul>
+
+      <p class="content-pro">В зависимости от объекта, его назначения, сложности и площади варьируется состав проектной документации, количество
+      стадий и разделов. Подробнее Вы можете узнать об этом в разделе Заказ проекта.</p>
+
+  </section>
+
+  <div>
+      <img class="nav_bottom" src="./img/11.png" alt="button" width="44" height="15"> 
+  </div>
+
+  <!--end contant main-->
 
 
 
-            <!--partners-->
+  <!--partners-->
 
-                <section class="partners">
-                <h2 class="partners-header">Наши принципы проектирования:</h2>
-                <ul class="partners-item">
+      <section class="partners">
+      <h2 class="partners-header">Наши принципы проектирования:</h2>
+      <ul class="partners-item">
 
-                    <li class="partners-list">
-                        <article class="partners-card">
-                            <div class="partners-thumb">
-                                <img src="./img/1.svg" alt="выполнение работы в срок" width="70" height="70">
-                            </div>
-                            <div class="partners-content">
-                                <h3 class="partners-ops">выполнение работы в срок</h3>
-                            </div>
-                        </article>
-                    </li>
+          <li class="partners-list">
+              <article class="partners-card">
+                  <div class="partners-thumb">
+                      <img src="./img/1.svg" alt="выполнение работы в срок" width="70" height="70">
+                  </div>
+                  <div class="partners-content">
+                      <h3 class="partners-ops">выполнение работы в срок</h3>
+                  </div>
+              </article>
+          </li>
 
-                    <li class="partners-list">
-                        <article class="partners-card">
-                            <div class="partners-thumb">
-                                <img src="./img/2.png" alt="эффективность и экономичность решений" width="70" height="70">
-                            </div>
-                            <div class="partners-content">
-                                <h3 class="partners-ops">эффективность и экономичность решений</h3>
-                            </div>                
-                        </article> 
-                    </li>
+          <li class="partners-list">
+              <article class="partners-card">
+                  <div class="partners-thumb">
+                      <img src="./img/2.png" alt="эффективность и экономичность решений" width="70" height="70">
+                  </div>
+                  <div class="partners-content">
+                      <h3 class="partners-ops">эффективность и экономичность решений</h3>
+                  </div>                
+              </article> 
+          </li>
 
-                    <li class="partners-list">
-                        <article class="partners-card">
-                            <div class="partners-thumb">
-                                <img src="./img/3.png" alt="проектирование по международным стандартам устойчивого развития и экологичности и в соответствие с нормами" width="70" height="70">
-                            </div>
-                            <div class="partners-content">
-                                <h3 class="partners-ops">проектирование по международным стандартам устойчивого развития и экологичности и в соответствие с нормами</h3>
-                            </div>
-                        </article>
-                    </li>
+          <li class="partners-list">
+              <article class="partners-card">
+                  <div class="partners-thumb">
+                      <img src="./img/3.png" alt="проектирование по международным стандартам устойчивого развития и экологичности и в соответствие с нормами" width="70" height="70">
+                  </div>
+                  <div class="partners-content">
+                      <h3 class="partners-ops">проектирование по международным стандартам устойчивого развития и экологичности и в соответствие с нормами</h3>
+                  </div>
+              </article>
+          </li>
 
-                    <li class="partners-list">
-                        <article class="partners-card">
-                            <div class="partners-thumb">
-                                <img src="./img/4.png" alt="ведение работы с заказчиком на основе взаимного диалога и нахождения наилучшего решения" width="70" height="70">
-                            </div>
-                            <div class="partners-content">
-                                <h3 class="partners-ops">ведение работы с заказчиком на основе взаимного диалога и нахождения наилучшего решения</h3>
-                            </div>
-                        </article>  
-                    </li>
+          <li class="partners-list">
+              <article class="partners-card">
+                  <div class="partners-thumb">
+                      <img src="./img/4.png" alt="ведение работы с заказчиком на основе взаимного диалога и нахождения наилучшего решения" width="70" height="70">
+                  </div>
+                  <div class="partners-content">
+                      <h3 class="partners-ops">ведение работы с заказчиком на основе взаимного диалога и нахождения наилучшего решения</h3>
+                  </div>
+              </article>  
+          </li>
 
-                    <li class="partners-list">
-                        <article class="partners-card">
-                            <div class="partners-thumb">
-                                <img src="./img/5.png" alt="применение правил эргономики и индивидуальности при проектировании каждого объекта" width="70" height="70">
-                            </div>
-                            <div class="partners-content">
-                                <h3 class="partners-ops">применение правил эргономики и индивидуальности при проектировании каждого объекта</h3>
-                            </div>
-                        </article>
-                    </li>
+          <li class="partners-list">
+              <article class="partners-card">
+                  <div class="partners-thumb">
+                      <img src="./img/5.png" alt="применение правил эргономики и индивидуальности при проектировании каждого объекта" width="70" height="70">
+                  </div>
+                  <div class="partners-content">
+                      <h3 class="partners-ops">применение правил эргономики и индивидуальности при проектировании каждого объекта</h3>
+                  </div>
+              </article>
+          </li>
 
-                    <li class="partners-list">
-                        <article class="partners-card">
-                            <div class="partners-thumb">
-                                <img src="./img/6.png" alt="проектирование с учетом специфики окружающей застройки" width="70" height="70">
-                            </div>
-                            <div class="partners-content">
-                                <h3 class="partners-ops">проектирование с учетом специфики окружающей застройки</h3>
-                            </div>
-                        </article>      
-                    </li>
+          <li class="partners-list">
+              <article class="partners-card">
+                  <div class="partners-thumb">
+                      <img src="./img/6.png" alt="проектирование с учетом специфики окружающей застройки" width="70" height="70">
+                  </div>
+                  <div class="partners-content">
+                      <h3 class="partners-ops">проектирование с учетом специфики окружающей застройки</h3>
+                  </div>
+              </article>      
+          </li>
 
-                    <li class="partners-list">
-                        <article class="partners-card">
-                            <div class="partners-thumb">
-                                <img src="./img/7.png" alt="наделение элементов и объектов эстетической красотой" width="70" height="70">
-                            </div>
-                            <div class="partners-content">
-                                <h3 class="partners-ops">наделение элементов и объектов эстетической красотой</h3>
-                            </div>
-                        </article>
-                    </li>
-                </ul>
-                
-                <div class="partners-nav">
-                    <img class="nav_bottom" src="./img/11.png" alt="button" width="44" height="15">
-                </div>
-            </section>
+          <li class="partners-list">
+              <article class="partners-card">
+                  <div class="partners-thumb">
+                      <img src="./img/7.png" alt="наделение элементов и объектов эстетической красотой" width="70" height="70">
+                  </div>
+                  <div class="partners-content">
+                      <h3 class="partners-ops">наделение элементов и объектов эстетической красотой</h3>
+                  </div>
+              </article>
+          </li>
+      </ul>
+      
+      <div class="partners-nav">
+          <img class="nav_bottom" src="./img/11.png" alt="button" width="44" height="15">
+      </div>
+  </section>
 
 <!--end partners-->
 
 <!--contact-->
 
-            <section class="contakt">
-                <h2 class="contakt-title">Мы будем рады помочь Вам в успешном создании и реализации объектов!</h2>
-                <p class="contack-name">Вы можете договориться с нами о встрече и мы окажем Вам бесплатную<br/> архитектурную консультацию!</p>
-                <div class="contack-main">
-                    <div>
-                        <ul class="contakt-table">
-                            <li class="contakt-thumb">
-                                <div class="contakt-img">
-                                    <img src="./img/8.png" alt="tel">
-                                </div>
-                                <div class="contact-item">
-                                    <a href="tel:380949476455">380 94 94 764 55 <br> 787 34 55</a>
-                                </div>
-                            </li>
-                            <li class="contakt-thumb">
-                                <div class="contakt-img">
-                                    <img src="./img/9.png" alt="mail">
-                                </div>
-                                <div class="contact-item">
-                                    <a href="mailto:adess.llc@gmail.com">adess.llc@gmail.com</a>
-                                </div>
-                            </li>
-                            <li class="contakt-thumb">
-                                <div class="contakt-img">
-                                    <img src="./img/10.png" alt="location">
-                                </div>
-                                <div class="contact-item">
-                                    <a href="">Одесса <br> ул. Армейская, 8б</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.2989477438723!2d30.744385992119817!3d46.447606817786394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633c24ae229b9%3A0x35f63434ce72c1ba!2z0JDRgNC80LXQudGB0LrQsNGPINGD0LsuLCA40JEsINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1615306572026!5m2!1sru!2sua"
-                            width="600" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-                </div>
-                <div class="contakt-nav">
-                    <img class="nav_bottom" src="./img/11.png" alt="button" width="44" height="15">
-                </div>
-            </section>
-            <section class="partners-other">
-                <h2>Наши партнеры:</h2>
-                <p>Свяжитесь с нами по вопросам сотрудничества! Будем рады эффективной совместной работе!</p>
-                <ul>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                    </li>
+  <section class="contakt">
+      <h2 class="contakt-title">Мы будем рады помочь Вам в успешном создании и реализации объектов!</h2>
+      <p class="contack-name">Вы можете договориться с нами о встрече и мы окажем Вам бесплатную<br/> архитектурную консультацию!</p>
+      <div class="contack-main">
+          <div>
+              <ul class="contakt-table">
+                  <li class="contakt-thumb">
+                      <div class="contakt-img">
+                          <img src="./img/8.png" alt="tel">
+                      </div>
+                      <div class="contact-item">
+                          <a href="tel:380949476455">380 94 94 764 55 <br> 787 34 55</a>
+                      </div>
+                  </li>
+                  <li class="contakt-thumb">
+                      <div class="contakt-img">
+                          <img src="./img/9.png" alt="mail">
+                      </div>
+                      <div class="contact-item">
+                          <a href="mailto:adess.llc@gmail.com">adess.llc@gmail.com</a>
+                      </div>
+                  </li>
+                  <li class="contakt-thumb">
+                      <div class="contakt-img">
+                          <img src="./img/10.png" alt="location">
+                      </div>
+                      <div class="contact-item">
+                          <a href="">Одесса <br> ул. Армейская, 8б</a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+          <div class="map">
+              <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.2989477438723!2d30.744385992119817!3d46.447606817786394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633c24ae229b9%3A0x35f63434ce72c1ba!2z0JDRgNC80LXQudGB0LrQsNGPINGD0LsuLCA40JEsINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1615306572026!5m2!1sru!2sua"
+                  width="600" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+      </div>
+      <div class="contakt-nav">
+          <img class="nav_bottom" src="./img/11.png" alt="button" width="44" height="15">
+      </div>
+  </section>
+  <section class="partners-other">
+      <h2>Наши партнеры:</h2>
+      <p>Свяжитесь с нами по вопросам сотрудничества! Будем рады эффективной совместной работе!</p>
+      <ul>
+          <li>
+              <img src="" alt="">
+          </li>
+          <li>
+              <img src="" alt="">
+          </li>
+          <li>
+              <img src="" alt="">
+          </li>
+          <li>
+              <img src="" alt="">
+          </li>
+          <li>
+              <img src="" alt="">
+          </li>
+          <li>
+              <img src="" alt="">
+          </li>
+          <li>
+              <img src="" alt="">
+          </li>
+          <li>
+              <img src="" alt="">
+          </li>
+          <li>
+              <img src="" alt="">
+          </li>
 
-                </ul>
+      </ul>
 
-            </section>
+  </section>
 
 <!--end partnrers-->
 
 
 
 
-        </main>
-        
-<!--footer-->
+</main>
+      
+      
+      
+      
+<footer class="footer">
+  <div class="footer__logo">
+      <a href="./index.html">
+          <img class="logo__footer" src="./img/logo_footer.svg" alt="site_logo" width="125" height="23">
+      </a>
+  </div>
+  <div class="footer__list">
+      <ul>
+          <li>
+              <span class="footer__list__name">ARCHITECTURE</span>
+          </li>
+          <li>
+              <span class="footer__list__name">DESIGN</span>
+          </li>
+          <li>
+              <span class="footer__list__name">ENGINEERING</span>
+          </li>
+          <li>
+              <span class="footer__list__name">SYSTEM SOLUTIONS</span>
+          </li>
+      </ul>
+    </div>
+  <address class="addres">
+      <ul class="addres_list">
+          <li class="adress_list_a">
+            <img src="./img/8.png" alt="tel">
+            <a class="adress_list_a_a" href="tel:+380949476455">+380 94 94 764 55 <br> 787 34 55</a> 
+          </li>
+          <li class="adress_list_b">
+              <img src="./img/9.png" alt="mail">
+              <a class="adress_list_b_a" href="mailto:adess.llc@gmail.com">adess.llc@gmail.com</a>
+          </li>
+      </ul>
+  </address>
+  <div class="adress_adress">
+      <h4 class="com-name">ООО “АДИСС”</h4>
+      <p class="com-address">Одесский бульвар, 5, с. Лиманка, <br>Овидиопольский район, Одесская область</p>
+  </div>
+</footer>
 
-        <footer class="footer">
-            <section class="footer__logo">
-                <a href="./index.html">
-                    <img class="logo__footer" src="./img/logo_footer.svg" alt="site_logo" width="125" height="23">
-                </a>
-            </section>
-            <section>
-                <ul class="footer__list">
-                    <li>
-                        <span class="footer__list__name">ARCHITECTURE</span>
-                    </li>
-                    <li>
-                        <span class="footer__list__name">DESIGN</span>
-                    </li>
-                    <li>
-                        <span class="footer__list__name">ENGINEERING</span>
-                    </li>
-                    <li>
-                        <span class="footer__list__name">SYSTEM SOLUTIONS</span>
-                    </li>
-                </ul>
-            </section>
-            <address class="addres">
-                <ul class="addres_list">
-                    <li class="adress_list_a">
-                    <a class="adress_list_a_a" href="tel:+380949476455">+380 94 94 764 55 <br> 787 34 55</a> 
-                    </li>
-                    <li class="adress_list_b">
-                        <a class="adress_list_b_a" href="mailto:adess.llc@gmail.com">adess.llc@gmail.com</a>
-                    </li>
-                </ul>
-            </address>
-            <address class="adress_adress">
-                <h4 class="com-name">ООО “АДИСС”</h4>
-                <p class="com-address">Одесский бульвар, 5, с. Лиманка, <br>Овидиопольский район, Одесская область</p>
-            </address>
-        </footer>
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ajax-utils.js"></script>
+<script src="js/script.js"></script>
 
-<!--end footer-->
-    </section>
 </body>
 </html>
